@@ -69,17 +69,10 @@ decisions, and a Convergence Verifier that tests the finished product against th
 After delivery, each build gets a second, user-side label: did the person who typed the prompt get something that
 worked on first contact? That outcome is the number this page leads with. It is kept apart from the pipeline’s own
 verdict, because the two disagreed more than once. A dashboard (the codex) reads the run files and draws each build’s topology.</p>
-<figure>
-  <img src="/case-studies/autobuilder/topology-streamdock-960.webp"
-       srcset="/case-studies/autobuilder/topology-streamdock-960.webp 960w, /case-studies/autobuilder/topology-streamdock-1600.webp 1600w"
-       sizes="(min-width: 760px) 720px, 100vw" width="960" height="520" loading="lazy" decoding="async"
-       alt="Dark dashboard view of one build, the Stream Dock plugin, laid out in lanes: kickoff (Orchestrator), planning (Discovery with researcher probes, Technical Discovery with its sections), build (Coordinator and builders), verification (Editor, Critic, Convergence Verifier marked pass with concerns), delivery (Integrator) and ratification (awaiting user), with a card listing the plugin's manifest fields." />
+<figure class="demo" data-demo="autobuilder-topology-streamdock-v1 autobuilder-topology-mlb autobuilder-topology-blackjack-trainer autobuilder-topology-kanban" data-labels="Stream Dock plugin|MLB dashboard|Blackjack trainer|Kanban board" data-ratio="2.03">
   <figcaption>One build in the codex dashboard: the second Stream Dock attempt, which passed with concerns and was
-  still waiting for my sign-off.</figcaption>
-</figure>
-<figure class="demo" data-demo="autobuilder-topology-mlb autobuilder-topology-streamdock autobuilder-topology-blackjack-trainer autobuilder-topology-kanban" data-labels="MLB dashboard|Stream Dock plugin|Blackjack trainer|Kanban board" data-ratio="2.03">
-  <figcaption>The same topology chart for four builds, frozen from the codex as it draws them today, so you can pan and
-  zoom them: the roles each build used, laid out by phase, and where it stands now.</figcaption>
+  still waiting for my sign-off. The other tabs show the same topology chart for three more builds. All four are
+  frozen from the codex as it draws them today, so you can pan and zoom them.</figcaption>
 </figure>
 <figure class="demo" data-demo="autobuilder-mlb-flowchart autobuilder-streamdock-flowchart autobuilder-blackjack-trainer-flowchart autobuilder-kanban-flowchart" data-labels="MLB dashboard|Stream Dock plugin|Blackjack trainer|Kanban board" data-ratio="1.09">
   <figcaption>The decision flowcharts AutoBuilder drew for the same four builds, as published with each run: each
